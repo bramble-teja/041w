@@ -1,0 +1,18 @@
+<link href="datapick/jquery.datepick.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="datapick/jquery.min.js"></script>
+<script type="text/javascript" src="datapick/jquery.datepick.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#popupDatepicker').datepick();
+});
+
+function showDate(date) {
+	alert('The date chosen is ' + date);
+}
+</script>
+</head>
+<body>
+<h1>&nbsp;</h1>
+<p>A popup datepicker <input type="text" id="popupDatepicker"></p>
+</body>
+

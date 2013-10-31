@@ -1,0 +1,247 @@
+body
+{
+	font-family: arial;
+}
+
+.container
+{
+	border: 1px solid;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 80px;
+	padding-top: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 80px;
+	width: 790px;
+
+}
+.tabhead
+{
+	background-color: #ccccaa;
+}
+.alternate
+{
+	background-color: #eeeecc;
+}
+
+h1
+{
+	font-size: 20pt
+	font-weight: bold;
+	color: gray;
+}
+
+h2
+{
+	font-size: 15pt;
+}
+
+a
+{
+	color: blue;
+	text-decoration: none;	
+}
+
+.widetextin
+{
+	width: 350px;
+}
+
+label {
+	float: left;
+	margin-bottom: 4px;
+	text-align: right;
+	width: 290px;
+	padding-right: 10px;
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+}
+.data_label_return {
+	float: left;
+	margin-bottom: 4px;
+	text-align: right;
+	width: 300px;
+	padding-right: 10px;
+	padding-top: 4px;
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+}
+.data_label {
+	float: left;
+	margin-bottom: 4px;
+	text-align: right;
+	width: 150px;
+	padding-right: 10px;
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.data {
+	font-family: arial; 
+	font-size: 10pt;
+	width: 150px;
+	margin-left: 10px;
+}
+.data_return {
+	line-height: 24px;
+	text-align: right;
+	font-family: arial; 
+	font-size: 10pt;
+}
+.editlogo
+{
+	margin-left: 200px;
+}
+
+.box
+{
+	border: .05em solid;
+	border-color: gray; 
+	width: 600px;
+}
+
+br
+{
+	clear: left;
+}
+
+.card_title{
+	margin-left: 208px;
+	margin-bottom: 16px;
+	font-size: 13pt;
+	font-family: arial;
+	font-weight: bold;
+}
+.formtitle{
+	margin-left: 208px;
+	margin-bottom: 16px;
+	font-size: 13pt;
+	font-family: arial;
+	font-weight: bold;
+}
+
+.error{
+	margin-left: 208px;
+	margin-bottom: 4px;
+	font-size: 10pt;
+	font-family: arial;
+	font-weight: bold;
+	color: red;
+}
+
+.th_producers {
+	font-family: arial; 
+	font-size: 10pt;
+	font-weight: bold;
+	text-align: left;
+}
+.th_report {
+	font-family: arial; 
+	font-size: 8pt;
+	font-weight: bold;
+	text-align: left;
+}
+.td_reg_number {
+	font-family: arial; 
+	font-size: 10pt;
+	margin-left: 10px;
+	width: 200px;
+}
+.td_name{
+	font-family: arial; 
+	font-size: 10pt;
+	margin-left: 10px;
+	width: 300px;
+}
+.td_report{
+	font-family: arial; 
+	font-size: 8pt;
+}
+.td_p1{
+	font-family: arial; 
+	font-size: 10pt;
+	margin-left: 10px;
+	width: 40px;
+	background-color: #eeeecc;
+}
+.td_p4{
+	font-family: arial; 
+	font-size: 10pt;
+	margin-left: 10px;
+	width: 20px;
+	background-color: #eeeecc;
+}
+.td_p2{
+	font-family: arial; 
+	font-size: 10pt;
+	margin-left: 10px;
+	width: 30px;
+	background-color: white;
+}
+tr{
+	border-style: none;
+	border-width: 0px;
+}
+td{
+	border-style: none;
+	border-width: 0px;
+
+}
+th{
+	border-style: none;
+	border-width: 0px;
+
+}
+table{
+	border-style: none;
+}
+
+#card_producer_details{
+	float: left;
+}
+#card_producer_registered{
+	float: left;
+}
+#card_producer_correspondent{
+	width: 400px;
+}
+#card_producer_logos{
+	width: 400px;
+}
+
+#save_producer{
+
+	width: 150px;
+	margin-left: 200px;
+	
+}
+
+#return_col_1{
+    position:absolute;
+    left:0;
+    width:390px;
+}
+#return_col_2{
+    position:absolute;
+    left:384px;
+    width:70px;
+}
+#return_col_3{
+    position:absolute;
+    left:455px;
+    width:70px;
+}
+#return_col_4{
+    position:absolute;
+    left:530px;
+    width:70px;
+}
+.return{
+   position:relative;
+   height: 370px;
+   width: 800px;
+}
